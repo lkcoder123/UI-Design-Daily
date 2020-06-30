@@ -57,6 +57,7 @@ ul {
   background-color: #aa2b33;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-ghost {
