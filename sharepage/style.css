@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(85, 83, 83);
+}
+
+.container {
+  border: 5px solid rgb(228, 224, 224);
+  border-radius: 5px;
+  width: 500px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(228, 224, 224);
+}
+
+h2,
+h4,
+small {
+  text-align: center;
+}
+
+.last {
+  margin-top: 20px;
+  color: red;
+}
+.row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  color: white;
+}
+button:focus {
+  outline: none;
+}
+.fb {
+  background-color: #3b5998;
+  border: 2px solid #3b5998;
+}
+
+i {
+  color: white;
+  margin-right: 5px;
+}
+.twitter {
+  background-color: #00acee;
+  border: 2px solid #00acee;
+}
+
+.reddit {
+  background-color: #0b0d0d;
+  border: 2px solid #0b0d0d;
+}
