@@ -60,6 +60,10 @@ ul {
   cursor: pointer;
 }
 
+button:focus {
+  outline: none;
+}
+
 .btn-ghost {
   background-color: transparent;
   color: #aa2b33;
